@@ -1,0 +1,50 @@
+body{
+  background-color:pink;
+}
+.parent{
+  display: flex;
+  justify-content: space-around;
+
+}
+img{
+  width:250px;
+  height:250px;
+
+}
+.left{
+  width: 25%;
+  border-radius:2%;
+  box-shadow: 5px 5px 5px white;
+  text-align: center;
+  border: 1px solid black;
+
+}
+.right{
+  width: 60%;
+  box-shadow: 5px 5px white;
+  border-radius:3% ;
+  border: 1px solid blue;
+}
+table{
+  border-collapse: collapse;
+  font-size: 20px;
+  width: 100%;
+  border-color: yellow;
+}
+@media only screen and (min-width:320px) and (max-width:480px) {
+  .left{
+    display: flex;
+  }
+  .right{
+    width: 30%;
+  }
+
+}
+@media only screen and (min-width:520px) and (max-width:760px) {
+  .left{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .parent{
+    width: 30%;
+  }

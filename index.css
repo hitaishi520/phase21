@@ -1,0 +1,40 @@
+header{
+  background-color: #06D3CC;
+  color:black;
+  text-align: center;
+  margin: 0.5%;
+  padding: 0.5%;
+  font-size: 15px;
+  border: 2px #06D3CC;
+  box-shadow: 2px 3px black;
+
+}
+a img{
+  display: block;
+  margin: 1% 3% 0 auto;
+  width: 5%;
+  height: 5%;
+  text-align: center;
+}
+.child img{
+  width: 320px;
+  height: 320px;
+}
+  .child{
+    width: 25%;
+    text-align: center;
+    border: 2px solid black;
+    justify-content: space-around;
+    padding: 0.5%;
+    margin: 0.5%;
+    background-color: yellow;
+    border-radius: 4%;
+  }
+  .main{
+    text-align: center;
+    margin: 2%;
+    padding:2%;
+    display: flex;
+    justify-content: space-around;
+
+  }
